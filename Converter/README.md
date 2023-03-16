@@ -15,7 +15,7 @@ pip install Pillow
 pip install pdf2image
 ```
 - для корректной работы pdf2image потребуется poppler-windows (<https://github.com/oschwartz10612/poppler-windows/releases/>)
-- добавляем папку bin/ в PATH или использовать poppler_path = r"C:\path\to\poppler-xx\bin" в качестве аргумента в convert_from_path.
+- добавляем папку bin/ в PATH или используем poppler_path = r"C:\path\to\poppler-xx\bin" в качестве аргумента в convert_from_path.
 
 ### 3. Внутри папки создаем 5 каталогов: **_CURRENT_**, **_UPDATE_**, **_TEXT_**, **_EXCEL_**, **_SHARE_**. 
 - При желании можете поменять названия каталогов в функции **init**.
